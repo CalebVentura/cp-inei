@@ -5,6 +5,8 @@ Requisitos
 - NodeJS
 - Git
 
+Comprobando
+
     node --version
     npm --version
     git --version
