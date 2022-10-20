@@ -15,7 +15,7 @@ const runCrawler = async () => {
         // Configurar Inicial del Navegador
         const browser = await puppeteer.launch({
             args: ['--no-sandbox', '--disable-setuid-sandbox', '--ignore-certificate-errors', '--window-size=1920,1080'],
-            headless: true,
+            headless: false,
             defaultViewport: null,
         })
         const page = await browser.newPage()
@@ -118,12 +118,12 @@ const runCrawler = async () => {
                 for (let i = 1; i < pueblos.length + 1; i++) {
                     console.log(`${provincia.provincia} => ${distrito.distrito} => ${pueblos[i - 1]}`)
                     await page.click(`#tblResultados > tbody > tr:nth-child(${i}) > td > a > li > u`)
-                    await delay(2000)
+                    await delay(2500)
 
                     // Abrir la tabla
                     await page.mouse.click(1108, 598, { button: 'left', clickCount: 2 })
-                    await delay(2500)
-
+                    await page.waitForSelector('[aria-describedby="tblArea_informacion_vnac"]')
+                    await delay(500)
                     // capturar los datos
                     const cp = await page.evaluate(() => {
                         const values = Array.from(document.querySelectorAll('[aria-describedby="tblArea_informacion_vnac"]'))
