@@ -1,0 +1,427 @@
+[
+  {
+    "region": "LAMBAYEQUE",
+    "valueOption": "14|-80.6271328646148|-7.1771269753164|-79.1208477382118|-5.48038672373618|0",
+    "provincias": [
+      {
+        "provincia": "CHICLAYO",
+        "valueOption": "1401|-79.9424648639771|-7.1771269753164|-79.1208477382118|-6.4812658496683|0",
+        "distritos": [
+          {
+            "distrito": "CAYALTI",
+            "valueOption": "140116|-79.5921399886508|-6.97195897512529|-79.4279099884978|-6.82258284998619|0",
+            "pueblos": [
+              {
+                "nombre": "CAYALTI",
+                "datos": {
+                  "DEPARTAMENTO": "LAMBAYEQUE",
+                  "PROVINCIA": "CHICLAYO",
+                  "DISTRITO": "CAYALTI",
+                  "CENTRO POBLADO": "CAYALTI",
+                  "CATEGORIA": "-",
+                  "CODIGO DE UBIGEO Y CENTRO POBLADO": "1401160001",
+                  "LONGITUD": "-79.5622900503",
+                  "LATITUD": "-6.89164012912",
+                  "ALTITUD": "85.5",
+                  "POBLACION": "30000",
+                  "VIVIENDA": "4200",
+                  "AGUA POR RED PUBLICA": "si",
+                  "ENERGIA ELECTRICA EN LA VIVIENDA": "si",
+                  "DESAGUE POR RED PUBLICA": "si",
+                  "VIA DE MAYOR USO": "-",
+                  "TRANSPORTE DE MAYOR USO": "-",
+                  "FRECUENCIA": "-",
+                  "TIEMPO EN MINUTOS HACIA LA CAPITAL DEL DISTRITO": "0",
+                  "DISTANCIA DEL CENTRO POBLADO HACIA LA CAPITAL DEL DISTRITO(KM)": "-",
+                  "DISTANCIA DEL CENTRO POBLADO HACIA EL CENTRO POBLADO EDUCATIVO ": "0.15",
+                  "DISTANCIA DEL CENTRO POBLADO HACIA EL CENTRO DE SALUD MAS CERCA": "0.19",
+                  "ALUMBRADO PUBLICO": "si",
+                  "TELEFONO PUBLICO": "no",
+                  "LOCAL COMUNAL": "no",
+                  "HOSTAL / ALBERGUE": "no",
+                  "ESTACION DE RADIO": "no",
+                  "INSTITUCION EDUCATIVA PRIMARIA": "si",
+                  "INSTITUCION EDUCATIVA SECUNDARIA": "no",
+                  "ESTABLECIMIENTO/ PUESTO DE SALUD": "no",
+                  "PUESTO POLICIAL": "no",
+                  "OFICINA DE CORREO": "no",
+                  "CABINA DE INTERNET": "no",
+                  "HELADAS /NEVADAS": "no",
+                  "GRANIZADAS": "no",
+                  "LLUVIAS": "si",
+                  "SEQUIAS": "si",
+                  "VENDAVALES (VIENTOS FUERTES)": "no",
+                  "INUNDACIONES": "si",
+                  "DERRUMBES/DESLIZAMIENTOS": "no",
+                  "HUAYCOS / ALUDES/ALUVIONES": "no",
+                  "DESERTIFICACIONES": "si",
+                  "SALINIZACION DE LOS SUELOS": "no",
+                  "ACTIVIDAD VOLCANICA": "no",
+                  "SISMOS": "no",
+                  "TSUNAMI U OLEADAS ANOMALOS": "no",
+                  "OTROS FENOMENOS NAT.": "no",
+                  "DERRAME DE SUSTANCIAS O DESECHOS TOXICOS": "no",
+                  "FUGAS DE GASES TOXICOS": "no",
+                  "EXPLOSIONES": "no",
+                  "INCENDIOS Y QUEMAS": "si",
+                  "CRIANZA DE ANIMALES EN ZONAS URBANAS": "si",
+                  "INCREMENTO DE ZONAS INDUS. NO AUTORIZADAS": "no",
+                  "ZONAS AEREOPORTUARIAS": "no",
+                  "RELLENOS SANITARIOS": "no",
+                  "SUBVERSIONES Y/O CONFLICTOS SOCIALES": "no",
+                  "OTROS PELIGROS": "no",
+                  "UN LECHO DE RIO O QUEBRADA": "no",
+                  "UN CUARTEL MILITAR O POLICIAL": "no",
+                  "UNA VIA FERREA": "no",
+                  "LA EROSION DE RIOS EN LADERAS DE CERROS": "no",
+                  "BARRANCOS O PRECIPICIOS": "no",
+                  "OTROS": "no",
+                  "PISTAS Y VEREDAS EN LA MAYORI DE SUS CALLES Y/O MANZANAS": "si",
+                  "CANALES DE DRENAJE EN LAS CALLES PARA LA EVACUACION DE LAS AGUA": "no",
+                  "IDIOMA O LENGUA QUE SE HABLA CON MAYOR FRECUENCIA": "castellano"
+                }
+              },
+              {
+                "nombre": "SANTA ROSA ALTA",
+                "datos": {
+                  "DEPARTAMENTO": "LAMBAYEQUE",
+                  "PROVINCIA": "CHICLAYO",
+                  "DISTRITO": "CAYALTI",
+                  "CENTRO POBLADO": "SANTA ROSA ALTA",
+                  "CATEGORIA": "-",
+                  "CODIGO DE UBIGEO Y CENTRO POBLADO": "1401160003",
+                  "LONGITUD": "-79.5700166667",
+                  "LATITUD": "-6.88234666667",
+                  "ALTITUD": "84.3",
+                  "POBLACION": "150",
+                  "VIVIENDA": "30",
+                  "AGUA POR RED PUBLICA": "no",
+                  "ENERGIA ELECTRICA EN LA VIVIENDA": "no",
+                  "DESAGUE POR RED PUBLICA": "no",
+                  "VIA DE MAYOR USO": "camino de herradura / trocha",
+                  "TRANSPORTE DE MAYOR USO": "moto/mototaxi",
+                  "FRECUENCIA": "diario",
+                  "TIEMPO EN MINUTOS HACIA LA CAPITAL DEL DISTRITO": "15",
+                  "DISTANCIA DEL CENTRO POBLADO HACIA LA CAPITAL DEL DISTRITO(KM)": "2.7",
+                  "DISTANCIA DEL CENTRO POBLADO HACIA EL CENTRO POBLADO EDUCATIVO ": "0.5",
+                  "DISTANCIA DEL CENTRO POBLADO HACIA EL CENTRO DE SALUD MAS CERCA": "1.5",
+                  "ALUMBRADO PUBLICO": "no",
+                  "TELEFONO PUBLICO": "no",
+                  "LOCAL COMUNAL": "no",
+                  "HOSTAL / ALBERGUE": "no",
+                  "ESTACION DE RADIO": "no",
+                  "INSTITUCION EDUCATIVA PRIMARIA": "no",
+                  "INSTITUCION EDUCATIVA SECUNDARIA": "no",
+                  "ESTABLECIMIENTO/ PUESTO DE SALUD": "no",
+                  "PUESTO POLICIAL": "no",
+                  "OFICINA DE CORREO": "no",
+                  "CABINA DE INTERNET": "no",
+                  "HELADAS /NEVADAS": "no",
+                  "GRANIZADAS": "no",
+                  "LLUVIAS": "no",
+                  "SEQUIAS": "no",
+                  "VENDAVALES (VIENTOS FUERTES)": "no",
+                  "INUNDACIONES": "no",
+                  "DERRUMBES/DESLIZAMIENTOS": "no",
+                  "HUAYCOS / ALUDES/ALUVIONES": "no",
+                  "DESERTIFICACIONES": "no",
+                  "SALINIZACION DE LOS SUELOS": "no",
+                  "ACTIVIDAD VOLCANICA": "no",
+                  "SISMOS": "no",
+                  "TSUNAMI U OLEADAS ANOMALOS": "no",
+                  "OTROS FENOMENOS NAT.": "no",
+                  "DERRAME DE SUSTANCIAS O DESECHOS TOXICOS": "no",
+                  "FUGAS DE GASES TOXICOS": "no",
+                  "EXPLOSIONES": "no",
+                  "INCENDIOS Y QUEMAS": "no",
+                  "CRIANZA DE ANIMALES EN ZONAS URBANAS": "no",
+                  "INCREMENTO DE ZONAS INDUS. NO AUTORIZADAS": "no",
+                  "ZONAS AEREOPORTUARIAS": "no",
+                  "RELLENOS SANITARIOS": "no",
+                  "SUBVERSIONES Y/O CONFLICTOS SOCIALES": "no",
+                  "OTROS PELIGROS": "no",
+                  "UN LECHO DE RIO O QUEBRADA": "no",
+                  "UN CUARTEL MILITAR O POLICIAL": "no",
+                  "UNA VIA FERREA": "no",
+                  "LA EROSION DE RIOS EN LADERAS DE CERROS": "no",
+                  "BARRANCOS O PRECIPICIOS": "no",
+                  "OTROS": "no",
+                  "PISTAS Y VEREDAS EN LA MAYORI DE SUS CALLES Y/O MANZANAS": "no",
+                  "CANALES DE DRENAJE EN LAS CALLES PARA LA EVACUACION DE LAS AGUA": "no",
+                  "IDIOMA O LENGUA QUE SE HABLA CON MAYOR FRECUENCIA": "castellano"
+                }
+              },
+              {
+                "nombre": "CERRO LEON",
+                "datos": {
+                  "DEPARTAMENTO": "LAMBAYEQUE",
+                  "PROVINCIA": "CHICLAYO",
+                  "DISTRITO": "CAYALTI",
+                  "CENTRO POBLADO": "CERRO LEON",
+                  "CATEGORIA": "-",
+                  "CODIGO DE UBIGEO Y CENTRO POBLADO": "1401160005",
+                  "LONGITUD": "-79.5620800000",
+                  "LATITUD": "-6.87620666667",
+                  "ALTITUD": "92.0",
+                  "POBLACION": "70",
+                  "VIVIENDA": "15",
+                  "AGUA POR RED PUBLICA": "no",
+                  "ENERGIA ELECTRICA EN LA VIVIENDA": "no",
+                  "DESAGUE POR RED PUBLICA": "no",
+                  "VIA DE MAYOR USO": "camino de herradura / trocha",
+                  "TRANSPORTE DE MAYOR USO": "moto/mototaxi",
+                  "FRECUENCIA": "diario",
+                  "TIEMPO EN MINUTOS HACIA LA CAPITAL DEL DISTRITO": "10",
+                  "DISTANCIA DEL CENTRO POBLADO HACIA LA CAPITAL DEL DISTRITO(KM)": "4.5",
+                  "DISTANCIA DEL CENTRO POBLADO HACIA EL CENTRO POBLADO EDUCATIVO ": "1.46",
+                  "DISTANCIA DEL CENTRO POBLADO HACIA EL CENTRO DE SALUD MAS CERCA": "2.39",
+                  "ALUMBRADO PUBLICO": "no",
+                  "TELEFONO PUBLICO": "no",
+                  "LOCAL COMUNAL": "no",
+                  "HOSTAL / ALBERGUE": "no",
+                  "ESTACION DE RADIO": "no",
+                  "INSTITUCION EDUCATIVA PRIMARIA": "no",
+                  "INSTITUCION EDUCATIVA SECUNDARIA": "no",
+                  "ESTABLECIMIENTO/ PUESTO DE SALUD": "no",
+                  "PUESTO POLICIAL": "no",
+                  "OFICINA DE CORREO": "no",
+                  "CABINA DE INTERNET": "no",
+                  "HELADAS /NEVADAS": "no",
+                  "GRANIZADAS": "no",
+                  "LLUVIAS": "no",
+                  "SEQUIAS": "no",
+                  "VENDAVALES (VIENTOS FUERTES)": "no",
+                  "INUNDACIONES": "no",
+                  "DERRUMBES/DESLIZAMIENTOS": "no",
+                  "HUAYCOS / ALUDES/ALUVIONES": "no",
+                  "DESERTIFICACIONES": "no",
+                  "SALINIZACION DE LOS SUELOS": "no",
+                  "ACTIVIDAD VOLCANICA": "no",
+                  "SISMOS": "no",
+                  "TSUNAMI U OLEADAS ANOMALOS": "no",
+                  "OTROS FENOMENOS NAT.": "no",
+                  "DERRAME DE SUSTANCIAS O DESECHOS TOXICOS": "no",
+                  "FUGAS DE GASES TOXICOS": "no",
+                  "EXPLOSIONES": "no",
+                  "INCENDIOS Y QUEMAS": "no",
+                  "CRIANZA DE ANIMALES EN ZONAS URBANAS": "no",
+                  "INCREMENTO DE ZONAS INDUS. NO AUTORIZADAS": "no",
+                  "ZONAS AEREOPORTUARIAS": "no",
+                  "RELLENOS SANITARIOS": "no",
+                  "SUBVERSIONES Y/O CONFLICTOS SOCIALES": "no",
+                  "OTROS PELIGROS": "no",
+                  "UN LECHO DE RIO O QUEBRADA": "no",
+                  "UN CUARTEL MILITAR O POLICIAL": "no",
+                  "UNA VIA FERREA": "no",
+                  "LA EROSION DE RIOS EN LADERAS DE CERROS": "no",
+                  "BARRANCOS O PRECIPICIOS": "no",
+                  "OTROS": "no",
+                  "PISTAS Y VEREDAS EN LA MAYORI DE SUS CALLES Y/O MANZANAS": "no",
+                  "CANALES DE DRENAJE EN LAS CALLES PARA LA EVACUACION DE LAS AGUA": "no",
+                  "IDIOMA O LENGUA QUE SE HABLA CON MAYOR FRECUENCIA": "castellano"
+                }
+              }
+            ]
+          },
+          {
+            "distrito": "CHICLAYO",
+            "valueOption": "140101|-79.8722948639117|-6.8325999749955|-79.7792033872625|-6.73989111944041|0",
+            "pueblos": []
+          },
+          {
+            "distrito": "CHONGOYAPE",
+            "valueOption": "140102|-79.6450364887|-6.78315409994946|-79.2964158633754|-6.48126584966832|0",
+            "pueblos": []
+          },
+          {
+            "distrito": "ETEN",
+            "valueOption": "140103|-79.8808613639197|-7.00383597515497|-79.7696034888161|-6.87919535003891|0",
+            "pueblos": []
+          },
+          {
+            "distrito": "ETEN PUERTO",
+            "valueOption": "140104|-79.8739218639132|-6.9898011001419|-79.8131809888567|-6.91871285007568|0",
+            "pueblos": []
+          },
+          {
+            "distrito": "JOSE LEONARDO ORTIZ",
+            "valueOption": "140105|-79.8854299889239|-6.7635690354781|-79.7868850571916|-6.71774997488853|0",
+            "pueblos": []
+          },
+          {
+            "distrito": "LAGUNAS",
+            "valueOption": "140107|-79.7968652388415|-7.17712697531636|-79.5209003635845|-6.8999453500582|0",
+            "pueblos": []
+          },
+          {
+            "distrito": "LA VICTORIA",
+            "valueOption": "140106|-79.9113769889481|-6.8542676000157|-79.8245799888673|-6.7841932249504|0",
+            "pueblos": []
+          },
+          {
+            "distrito": "MONSEFU",
+            "valueOption": "140108|-79.9077461139447|-6.90842772506613|-79.7704254888168|-6.82001997498378|0",
+            "pueblos": []
+          },
+          {
+            "distrito": "NUEVA ARICA",
+            "valueOption": "140109|-79.5030917385679|-7.02652910017611|-79.2966343633756|-6.85597997501731|0",
+            "pueblos": []
+          },
+          {
+            "distrito": "OYOTUN",
+            "valueOption": "140110|-79.4406322385097|-6.88595997504518|-79.1208477382119|-6.67140597484536|0",
+            "pueblos": []
+          },
+          {
+            "distrito": "PATAPO",
+            "valueOption": "140117|-79.6785932387313|-6.76961997493686|-79.4978099885629|-6.62773084980472|0",
+            "pueblos": []
+          },
+          {
+            "distrito": "PICSI",
+            "valueOption": "140111|-79.8294799888718|-6.75232772492075|-79.7130839887635|-6.679589974853|0",
+            "pueblos": []
+          },
+          {
+            "distrito": "PIMENTEL",
+            "valueOption": "140112|-79.9424648639771|-6.87361135003368|-79.8561054029591|-6.72804997489811|0",
+            "pueblos": []
+          },
+          {
+            "distrito": "POMALCA",
+            "valueOption": "140118|-79.8042899888484|-6.82904997499219|-79.7035399887545|-6.73087997490074|0",
+            "pueblos": []
+          },
+          {
+            "distrito": "PUCALA",
+            "valueOption": "140119|-79.6640099887177|-6.84597347500795|-79.381860863455|-6.74182997491096|0",
+            "pueblos": []
+          },
+          {
+            "distrito": "REQUE",
+            "valueOption": "140113|-79.8447617388861|-6.91003310006761|-79.7509843637988|-6.81538509997949|0",
+            "pueblos": []
+          },
+          {
+            "distrito": "SAÑA",
+            "valueOption": "140115|-79.7725012388188|-6.99692347514855|-79.4993781135644|-6.77645997494324|0",
+            "pueblos": []
+          },
+          {
+            "distrito": "SANTA ROSA",
+            "valueOption": "140114|-79.9315683639669|-6.91716210007428|-79.8775176139166|-6.84872997501054|0",
+            "pueblos": []
+          },
+          {
+            "distrito": "TUMAN",
+            "valueOption": "140120|-79.7537984888014|-6.86781110002829|-79.6435451136987|-6.67820222289856|0",
+            "pueblos": []
+          }
+        ]
+      },
+      {
+        "provincia": "FERREÃ‘AFE",
+        "valueOption": "1402|-79.8510499888919|-6.71513222488615|-79.1755996132628|-5.97638747419805|0",
+        "distritos": [
+          {
+            "distrito": "CAÑARIS",
+            "valueOption": "140202|-79.4210146134914|-6.15846047436764|-79.1755996132629|-5.97638747419808|0",
+            "pueblos": []
+          },
+          {
+            "distrito": "FERREÑAFE",
+            "valueOption": "140201|-79.8415351138831|-6.68143997485475|-79.755610613803|-6.56960247475058|0",
+            "pueblos": []
+          },
+          {
+            "distrito": "INCAHUASI",
+            "valueOption": "140203|-79.5433642386054|-6.40197872459447|-79.2490858633313|-6.07403147428903|0",
+            "pueblos": []
+          },
+          {
+            "distrito": "MANUEL ANTONIO MESONES MURO",
+            "valueOption": "140204|-79.7701595962384|-6.71513222488613|-79.5897707386486|-6.55018584973249|0",
+            "pueblos": []
+          },
+          {
+            "distrito": "PITIPO",
+            "valueOption": "140205|-79.8299784888723|-6.59071097477022|-79.4221556134925|-6.37156909956616|0",
+            "pueblos": []
+          },
+          {
+            "distrito": "PUEBLO NUEVO",
+            "valueOption": "140206|-79.8510499888919|-6.66156809983624|-79.791454529852|-6.59579684977496|0",
+            "pueblos": []
+          }
+        ]
+      },
+      {
+        "provincia": "LAMBAYEQUE",
+        "valueOption": "1403|-80.6271328646148|-6.82049997498419|-79.4018134884735|-5.48038672373618|0",
+        "distritos": [
+          {
+            "distrito": "CHOCHOPE",
+            "valueOption": "140302|-79.6887448403033|-6.19699972440355|-79.5446621136066|-6.12231834933402|0",
+            "pueblos": []
+          },
+          {
+            "distrito": "ILLIMO",
+            "valueOption": "140303|-79.9011099889386|-6.49167434967802|-79.7866600474257|-6.44987997463909|0",
+            "pueblos": []
+          },
+          {
+            "distrito": "JAYANCA",
+            "valueOption": "140304|-79.9652226139983|-6.45539997464419|-79.5283142385913|-6.13996284935041|0",
+            "pueblos": []
+          },
+          {
+            "distrito": "LAMBAYEQUE",
+            "valueOption": "140301|-80.1117461141347|-6.75621556281499|-79.7814299888271|-6.5898399747694|0",
+            "pueblos": []
+          },
+          {
+            "distrito": "MOCHUMI",
+            "valueOption": "140305|-79.9648489889979|-6.61438622479227|-79.8140898638575|-6.51998997470434|0",
+            "pueblos": []
+          },
+          {
+            "distrito": "MORROPE",
+            "valueOption": "140306|-80.6271328646147|-6.65143747482676|-79.9011099889386|-6.37186909956642|0",
+            "pueblos": []
+          },
+          {
+            "distrito": "MOTUPE",
+            "valueOption": "140307|-79.8303989888727|-6.328449974526|-79.5521462386135|-5.99726334921752|0",
+            "pueblos": []
+          },
+          {
+            "distrito": "OLMOS",
+            "valueOption": "140308|-80.6270586146147|-6.45894922464754|-79.5929624886516|-5.48038672373616|0",
+            "pueblos": []
+          },
+          {
+            "distrito": "PACORA",
+            "valueOption": "140309|-79.9513066139853|-6.47470997466218|-79.7936078638384|-6.40051947459312|0",
+            "pueblos": []
+          },
+          {
+            "distrito": "SALAS",
+            "valueOption": "140310|-79.7080599887587|-6.40645772459862|-79.4018134884735|-5.91276997413883|0",
+            "pueblos": []
+          },
+          {
+            "distrito": "SAN JOSE",
+            "valueOption": "140311|-79.979444153074|-6.82049997498422|-79.895199988933|-6.73073997490064|0",
+            "pueblos": []
+          },
+          {
+            "distrito": "TUCUME",
+            "valueOption": "140312|-79.9458613639802|-6.53482009971816|-79.793229988838|-6.47207997465972|0",
+            "pueblos": []
+          }
+        ]
+      }
+    ]
+  }
+]
