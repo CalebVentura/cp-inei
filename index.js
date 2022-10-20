@@ -10,8 +10,8 @@ const delay = require('delay')
 const root = path.dirname(require.main.filename)
 
 const runCrawler = async () => {
+    const pueblosTotales = []
     try {
-
         // Configurar Inicial del Navegador
         const browser = await puppeteer.launch({
             args: ['--no-sandbox', '--disable-setuid-sandbox', '--ignore-certificate-errors', '--window-size=1920,1080'],
@@ -101,10 +101,10 @@ const runCrawler = async () => {
         // Seleccionar cada provincia
         for (const provincia of resultadosScrapper[0].provincias) {
             await page.select('#cboProvincia', provincia.valueOption)
-            await delay(1000)
+            await delay(500)
             for (const distrito of provincia.distritos) {
                 await page.select('#cboDistrito', distrito.valueOption)
-                await delay(1000)
+                await delay(500)
 
                 // Selecciona cada pueblo
                 const pueblos = await page.evaluate(() => {
@@ -113,16 +113,16 @@ const runCrawler = async () => {
                     return ar
                 })
 
-                // distrito.pueblos.push(...pueblos.map((pueblo) => ({ nombre: pueblo, datos: {} })))
-                await delay(1000)
+                await delay(500)
 
                 for (let i = 1; i < pueblos.length + 1; i++) {
+                    console.log(`${provincia.provincia} => ${distrito.distrito} => ${pueblos[i - 1]}`)
                     await page.click(`#tblResultados > tbody > tr:nth-child(${i}) > td > a > li > u`)
                     await delay(2000)
 
                     // Abrir la tabla
                     await page.mouse.click(1108, 598, { button: 'left', clickCount: 2 })
-                    await delay(2000)
+                    await delay(2500)
 
                     // capturar los datos
                     const cp = await page.evaluate(() => {
@@ -135,10 +135,7 @@ const runCrawler = async () => {
                         return ress
                     })
 
-                    distrito.pueblos.push({
-                        nombre: pueblos[i - 1],
-                        datos: cp,
-                    })
+                    pueblosTotales.push(cp)
 
                     // Cerrar la tabla
                     await page.mouse.click(1287, 305, { button: 'left', clickCount: 1 })
@@ -146,11 +143,8 @@ const runCrawler = async () => {
                 }
             }
         }
-
-        // Escribir un archivo json
-        fs.writeFileSync('resultadoFinal.json', JSON.stringify(resultadosScrapper))
-
         await browser.close()
+        return pueblosTotales
     } catch (error) {
         throw new Error(error.message)
     }
@@ -158,7 +152,9 @@ const runCrawler = async () => {
 
 (async () => {
     try {
-        await runCrawler()
+        const pueblosTotales = await runCrawler()
+        // Escribir un archivo json
+        fs.writeFileSync('resultadoFinal.json', JSON.stringify(pueblosTotales))
     } catch (e) {
         console.log(e)
     }
