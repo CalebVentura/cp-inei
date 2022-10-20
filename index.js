@@ -15,7 +15,7 @@ const runCrawler = async () => {
         // Configurar Inicial del Navegador
         const browser = await puppeteer.launch({
             args: ['--no-sandbox', '--disable-setuid-sandbox', '--ignore-certificate-errors', '--window-size=1920,1080'],
-            headless: false,
+            headless: true,
             defaultViewport: null,
         })
         const page = await browser.newPage()
@@ -121,7 +121,7 @@ const runCrawler = async () => {
                     await delay(2500)
 
                     // Abrir la tabla
-                    await page.mouse.click(1108, 598, { button: 'left', clickCount: 2 })
+                    await page.mouse.click(1106, 596, { button: 'left', clickCount: 2 })
                     await page.waitForSelector('[aria-describedby="tblArea_informacion_vnac"]')
                     await delay(500)
                     // capturar los datos
@@ -138,7 +138,7 @@ const runCrawler = async () => {
                     pueblosTotales.push(cp)
 
                     // Cerrar la tabla
-                    await page.mouse.click(1287, 305, { button: 'left', clickCount: 1 })
+                    await page.mouse.click(1287, 304, { button: 'left', clickCount: 1 })
                     await delay(500)
                 }
             }
