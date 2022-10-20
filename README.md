@@ -1,9 +1,18 @@
-web scrapping de centros poblados usando puppeteer
+## web scrapping de centros poblados usando puppeteer
+
+Requisitos
+
+- NodeJS
+- Git
+
+    node --version
+    npm --version
+    git --version
 
 Clonando
 
     git clone https://github.com/CalebVentura/cp-inei.git
-    cd name-directory
+    cd cp-inei
     npm i
 
 Desde cero
